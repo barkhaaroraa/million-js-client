@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Node.js client library for LaikaTest Platform",
   "main": "laika-test-client.js",
+  "types": "index.d.ts",   
   "scripts": {
     "test": "node test.js"
   },
@@ -13,7 +14,7 @@
     "llm",
     "ai"
   ],
-  "author": "Naman Arora",
+  "author": "Laika Test",
   "license": "MIT",
   "engines": {
     "node": ">=12.0.0"
@@ -22,6 +23,6 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "your-repo-url"
+    "url": "https://github.com/NamanArora/million-js-client"
   }
 }

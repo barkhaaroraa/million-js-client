@@ -9,7 +9,7 @@ const {
 } = require('./laika-test-client');
 
 // Initialize client
-const client = new LaikaTestClient('be17d320e9dee9dc49785686abe83b476860569a25dbcd888269a244db473603', {
+const client = new LaikaTestClient('api key', {
     baseUrl: 'http://localhost:3001', // optional, this is default
     timeout: 10000, // optional, 10 seconds default
     cacheTtl: 30 * 60 * 1000 // optional, 30 minutes default
